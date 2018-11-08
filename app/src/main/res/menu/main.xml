@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto">
+ 	<item
+ 	    android:id="@+id/refresh"
+ 	    android:title="@string/refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings_name"
+        android:icon="@drawable/ic_action_settings"
+        android:showAsAction="never" />
+    
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/settings_exit"
+        android:icon="@drawable/ic_action_cancel"
+        android:showAsAction="never" />
+</menu>

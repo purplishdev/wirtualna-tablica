@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+	<header android:fragment="com.purplish.wirtualnatablica.PrefFragmentActivity"
+	    android:icon="@drawable/ic_action_settings"
+	    android:title="Ustawienia" >
+	    <extra android:name="pref-resource" android:value="preferences" />
+	</header>        
+ 
+</preference-headers>

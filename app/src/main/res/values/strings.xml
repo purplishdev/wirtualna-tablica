@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">Wirtualna Tablica</string>
+    <string name="description">Szkolna Tablica I Liceum Ogólnokształcącego w Świdniku</string>
+    
+    <string name="refresh">Odśwież</string>
+    <string name="settings_name">Ustawienia</string>
+    <string name="settings_exit">Wyjdź</string>
+    
+    <string name="pref_autoload">Automatyczne ładowanie</string>
+    <string name="pref_autoload_desc">Aktualizuj lub ładuj tablicę przy uruchomieniu</string>
+    <!-- <string name="pref_ignorenews">Ignoruj aktualności</string>
+    <string name="pref_ignorenews_desc">Pokazuj tylko szczęśliwy numerek i zastępstwa</string>  -->
+    <string name="pref_accelerometer">Akcelerometr</string>
+    <string name="pref_accelerometer_desc">Potrząśnij, aby odświeżyć tablicę</string>
+	<string name="pref_website">Aplikacja: www.purplish.pl</string>
+    <string name="pref_isabell">Grafika: Izabela Psiuk</string>
+    
+</resources>

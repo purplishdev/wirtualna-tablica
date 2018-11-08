@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Ogólne">
+        <CheckBoxPreference
+            android:title="@string/pref_autoload" 
+            android:summary="@string/pref_autoload_desc" 
+            android:key="autoload"
+            android:defaultValue="true" />
+        <!--
+        <CheckBoxPreference
+            android:title="@string/pref_ignorenews" 
+            android:summary="@string/pref_ignorenews_desc"
+            android:key="ignorenews" 
+            android:defaultValue="false" /> -->
+        
+        <CheckBoxPreference
+            android:title="@string/pref_accelerometer" 
+            android:summary="@string/pref_accelerometer_desc"
+            android:key="accelerometer" 
+            android:defaultValue="false" />
+        
+	</PreferenceCategory>
+	
+    <PreferenceCategory android:title="Twórcy">
+		<PreferenceScreen android:title="@string/pref_website">
+		    <intent
+		        android:action="android.intent.action.VIEW"
+		        android:data="http://www.purplish.pl" />
+		</PreferenceScreen>
+       
+       <Preference
+           android:gravity="center"
+           android:key="isabell"
+           android:title="@string/pref_isabell" />
+        
+	</PreferenceCategory>
+</PreferenceScreen>
